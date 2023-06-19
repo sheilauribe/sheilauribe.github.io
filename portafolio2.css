@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{background-color: #1F192F;
+  margin: 0px;
+color: #f0f7da;
+}
+
+body{background-color: #1F192F;}
+
+h1{font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+padding: 10px;
+display: block;
+text-align: center;}
+
+h2 h3 h4{padding-top: 10px;}
+
+p{padding: 5px;}
+
+ul{list-style: square;}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #2D6073;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2D6073;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #F0F7DA;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #65B8A6;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #2D6073;}
+
+.trabajo{width:  90%;
+display: inline-block;}
+	
+#headerpadre{background-color: #65B8A6;
+			padding: 10px;
+			height: 90px;
+			display: block;}
+
+#sheila{height: 330px;
+		width: auto;
+		display: inline-block;
+		border-style: solid;
+		border-color: #65b8a6;
+		border-width: 7px;
+		border-radius: 10pc;}
+		
+
+#presentacion{width: 70%;
+			display: inline-block;
+			padding: 10px;}
+
+#formacion{border-top-style: solid;
+			border-top-color: #B5E8C3;
+			border-top-width: 5px;
+			text-align: center;
+			padding-top: 10px;}
+
+#educacion{width: 45%;
+			display:inline-block;
+			border-right-color: #b5e8c3;
+			border-right-style: groove;
+			border-right-width: 5px;	
+			}
+
+#experiencia{width: 45%;
+			display:inline-block
+			}
+
+#footer{padding-top: 15px; }
+
+
+#navbar{background-color: #b5e8c3;
+		color: #f0f7da;}
+
+#header{font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		font-size: 16;
+		background-color: #65B8A6;}
+
+#contacto{width: 47%;
+		display: inline-block;
+		border-right: solid;
+		border-right-width: 5px;
+		border-right-color: #b5e8c3;
+padding: 10px;}
+
+#linkedin{display: inline-block;}
+
+#ubicacion{width: 47%;
+	display: inline-block;
+	padding: 10px;}
+
+#mitrabajo {padding: 20px;}
+
+.disclaimer{height: 80px;
+		background-color: #2d6073;
+		text-align: center}
